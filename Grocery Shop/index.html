@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Jewellery Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- modal -->
+
+    <div class="modal" id="modal">
+
+        <div class="container">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="image">
+                <img src="images/cart1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>subscribe newsletter</h2>
+                <p>stay updated with the fresh and exclusive offers on our website</p>
+                <form action="">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+    <!-- header section starts -->
+
+    <header>
+
+        <div class="header-top">
+
+            <div class="social">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="alert">
+                <p>
+                    <b>free shipping</b> this week order over - $30
+                </p>
+            </div>
+
+            <div class="actions">
+
+                <select name="currency">
+                    <option value="usd">USD &dollar;</option>
+                    <option value="usd">EUR &euro;</option>
+                </select>
+
+                <select name="language">
+                    <option value="en-US">English</option>
+                    <option value="en-ES">Espanish</option>
+                    <option value="fr">Francias</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="header-main">
+
+            <div id="menu" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"> <i class="fas fa-cart"></i>Grocery</a>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#products">product</a>
+                <a href="#services">services</a>
+                <a href="#blogs">blogs</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <button class="action-btn">
+                    <a href="#" class="fas fa-user"></a>
+                </button>
+                <button class="action-btn">
+                    <a href="#" class="fas fa-heart"></a>
+                    <span class="count">0</span>
+                </button>
+                <button class="action-btn">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <span class="count">0</span>
+                </button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>buy best <span> organic product </span> online </h3>
+            <a href="#" class="btn"> get yours now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- banner -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="images/banner1.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>Vegetables</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner2.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>fruits</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner3.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>assorted</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- product section starts -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">latest <span> products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nescafe Coffee</h3>
+                    <div class="price">
+                        <div class="amount">$12.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-8.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Fortune Oil</h3>
+                    <div class="price">
+                        <div class="amount">$19.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Heinz Kethup</h3>
+                    <div class="price">
+                        <div class="amount">$13.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Kisan Jam</h3>
+                    <div class="price">
+                        <div class="amount">$15.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-12.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Peanut Butter</h3>
+                    <div class="price">
+                        <div class="amount">$28.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-11.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Walnut</h3>
+                    <div class="price">
+                        <div class="amount">$30.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-9.png" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ahirwad atta</h3>
+                    <div class="price">
+                        <div class="amount">$26.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-10.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-bag"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Surf Excel</h3>
+                    <div class="price">
+                        <div class="amount">$20.00</div>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>180 reviews</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- product section ends -->
+
+    <!-- services section starts -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">our <span>services</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-ship"></i>
+                <h3>worldwide delivery</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn"> learn more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>best online support</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn"> learn more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-reply-all"></i>
+                <h3>return policy</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn"> learn more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-money-check"></i>
+                <h3>secure payment</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn"> learn more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about <span> us</span></h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>we make organic food in market</h3>
+                <img src="images/quote.svg" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    explicabo a voluptatum ex suscipit dolorum corrupti, fugiat accusamus!
+                    Nobis rem totam, quaerat quae deleniti voluptate mollitia officia non adipisci facilis!</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut voluptatum sunt mollitia
+                        tempora, vitae consectetur.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-1.png" alt="">
+                        <div class="user-info">
+                            <h3>john dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut voluptatum sunt mollitia
+                        tempora, vitae consectetur.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-2.png" alt="">
+                        <div class="user-info">
+                            <h3>john dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut voluptatum sunt mollitia
+                        tempora, vitae consectetur.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-3.png" alt="">
+                        <div class="user-info">
+                            <h3>john dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut voluptatum sunt mollitia
+                        tempora, vitae consectetur.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-4.png" alt="">
+                        <div class="user-info">
+                            <h3>john dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut voluptatum sunt mollitia
+                        tempora, vitae consectetur.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-5.png" alt="">
+                        <div class="user-info">
+                            <h3>john dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aut voluptatum sunt mollitia
+                        tempora, vitae consectetur.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review-6.png" alt="">
+                        <div class="user-info">
+                            <h3>john dev</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- blogs section starts -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">our <span> blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>healthy vegetables to try</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 25th Jan, 2024</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>healthy vegetables to try</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 25th Jan, 2024</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>healthy vegetables to try</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et!</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 25th Jan, 2024</a>
+                        <a href="#"><i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fas fa-envelope"></i> ninjashub4@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> services</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> products</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> order</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> features</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> products</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> categories</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <input type="email" placeholder="Your Email Address" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
+
+        </div>
+
+        <div class="credit">
+            <img src="images/payment.png" alt="" class="payment-img">
+            <p>created by <span>Piyush Kumar Singh</span> | all rights reserved!</p>
+        </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
